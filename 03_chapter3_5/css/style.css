@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*リセットCSS*/
+body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  cursor: hand;
+}
+
+
+/*jQuery練習*/
+/*共通*/
+.box1,.box2,.box3,.box4,.box5,.box6 {
+  display: block;
+  width: 400px;
+  background-color: beige;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.boxBlue {
+  background-color: cornflowerblue;
+}
+
+/*1*/
+
+/*2*/
+
+/*3*/
+
+/*4*/
+
+/*5*/
+
+/*6*/
+
+
+
+
