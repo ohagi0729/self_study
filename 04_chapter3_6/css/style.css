@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/*リセットCSS*/
+body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  cursor: hand;
+}
+
+
+#basket {
+  background: burlywood;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#apple {
+  background: tomato;
+}
+
+#mangoes {
+  background: yellow;
+}
+
+#banana {
+  background: gold;
+}
+
+#orange {
+  background: orange;
+}
+
+#div3, #div4 {
+  width: 500px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 30px auto 0;
+}
