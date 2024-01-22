@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*リセットCSS*/
+body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  cursor: hand;
+}
+
+
+.btn {
+  width: 300px;
+  background-color: wheat;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px #333 solid;
+  border-radius: 6px;
+}
+
+#input1 {
+  display: block;
+  margin: 0 auto;
+}
+
+.active {
+  background-color: gold;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="css/style.css" rel="stylesheet">
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/scripts.js"></script>
+</head>
+  
+<body>
+
+<!-- 同じ要素を取ってくるのは1度だけ、変数名を活用しろ -->
+  
+  <div id="div1" class="btn">div1</div>
+<!-- 「#div1」がクリックされたとき、中のテキストが「クリックされました」になるように -->
+  
+  <div id="div2" class="btn">div2</div>
+<!-- 「#div2」にマウスがのったとき、背景色がピンクになるように -->
+<!-- 「#div2」からマウスが離れた時、背景色が元のゴールドにもどるように -->
+<!-- 上の指示をそれぞれのイベントでわけて書け -->
+  
+  <div id="div3" class="btn">div3</div>
+<!-- 「#div3」にマウスが乗ったときは中のテキストがboldに、マウスが離れたときはbold解除に -->
+<!-- 上の指示を一つのイベントでまとめて書け -->
+  
+  <input id="input1" type="text" >
+<!-- このフォームが入力されたと、受け取ったサーバー側が認識できるように名前「your_name」をつけろ -->
+<!-- 「#input1」が選択されたとき、「.active」を追加、選択が外れたときは「.active」を削除 -->
+  
+  <div class="clickTest btn">div!</div>
+  <div class="clickTest btn">div!</div>
+  <div class="clickTest btn">div!</div>
+  <div class="clickTest btn">div!</div>
+  <div class="clickTest btn">div!</div>
+<!-- クリックされたdivのみがテキスト「クリックされました」に変わるように -->
+  
+</body>
+</html>
