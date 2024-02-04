@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*リセットCSS*/
+body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  cursor: hand;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.flex {
+  display: flex;
+  width: 990px;
+  margin: 0 auto;
+}
+
+.slideshow {
+  width: 310px;
+  height: 210px;
+  margin: 0 10px 20px;
+  position: relative;
+}
+
+.slideshow a {
+  width: inherit;
+  height: inherit;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.slideshow img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover; 
+  border: solid 5px #fff;
+  box-sizing: border-box;
+}
+
+.slideshow .hide {
+  display: none;
+} 
+
