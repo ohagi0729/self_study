@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*リセットCSS*/
+body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  cursor: hand;
+}
+
+.tabSet {
+  margin-bottom: 30px;
+}
+
+.tabs {
+  overflow: hidden;
+  padding: 20px 20px 0;
+  background-color: #31374c;
+}
+
+.tabs li {
+  float: left;
+  padding: 0 2px 0 0;
+  list-style-type: none;
+}
+
+.tabs a {
+  float: left;
+  color: #fff;
+  background: #0b1023;
+  padding: 0.5em 2.75em;
+  border-radius: 3px 3px 0 0;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.on {
+  background: #fff;
+  cursor: default;
+  color: #31374c;
+}
