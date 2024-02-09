@@ -1,10 +1,7 @@
 $(function() {
-  $('#change-text').click(function() {
-    $('#text').text('ようこそ、Progateへ');
+  $('#change-css').click(function(){
+    $('#text').css('color','red')
+    $('#text').css('font-size','50px')
   });
-  
-  $('#change-html').click(function(){
-    $('#text').html('<a href="https://prog-8.com/">ようこそ、Progateへ</a>');
-  });
-  
+
 });
